@@ -37,10 +37,8 @@ function writePassword(event) {
   }
   if(includeNumber == true){
     passwordOptions += number;
-  } else {
-    alert("please choose at least 1")
-    return;
-  };
+  } 
+  
   
   
   var password = "";
@@ -54,8 +52,7 @@ function writePassword(event) {
   // console.log(password)
   
  
-
-
+  
   
   
   var passwordText = document.querySelector("#password");
@@ -68,4 +65,3 @@ function writePassword(event) {
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
-
